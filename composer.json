@@ -1,0 +1,35 @@
+{
+    "name": "rlb/maker-bundle",
+    "description": "RequestLab Maker It helps you create code, classes and more.",
+    "type": "symfony-bundle",
+    "require": {
+        "symfony/maker-bundle": "^1.6"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.12",
+        "symfony/phpunit-bridge": "^4.1"
+    },
+    "license": "MIT",
+    "keywords": [
+        "generator",
+        "code generator",
+        "scaffolding",
+        "scaffold"
+    ],
+    "authors": [
+        {
+            "name": "RequestLab",
+            "email": "hello@requestlab.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "RLB\\Bundle\\MakerBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RLB\\Bundle\\MakerBundle\\Tests\\": "tests/"
+        }
+    }
+}

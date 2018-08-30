@@ -2,7 +2,7 @@
 
 namespace RLB\Bundle\MakerBundle\Maker;
 
-use RLB\Bundle\MakerBundle\RlbGenerator;
+use RLB\Bundle\MakerBundle\RLBGenerator;
 use Symfony\Bundle\MakerBundle\Maker\AbstractMaker;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Bundle\MakerBundle\Str;
@@ -23,9 +23,9 @@ final class MakeDomain extends AbstractMaker
     /**
      * Constructor
      *
-     * @param RlbGenerator $generator
+     * @param RLBGenerator $generator
      */
-    public function __construct(RlbGenerator $generator)
+    public function __construct(RLBGenerator $generator)
     {
         $this->generator = $generator;
     }

@@ -9,7 +9,7 @@ use Symfony\Component\Filesystem\Filesystem;
 /**
  * Generator
  */
-class RlbGenerator
+class RLBGenerator
 {
     private $fileLocator;
 
